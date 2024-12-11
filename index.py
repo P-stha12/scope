@@ -5,6 +5,8 @@ from io import BytesIO
 from PIL import Image
 import requests
 from sklearn.metrics.pairwise import cosine_similarity
+import nltk
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 
 @st.cache_resource
